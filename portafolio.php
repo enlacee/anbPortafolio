@@ -7,7 +7,7 @@
     <div id="title" class="step" data-x="750" data-y="-600" data-scale="4">
         <span class="try">Love, afisi&oacuten por la Web</span>
         <h1>www<sup>...</sup></h1>
-        <span class="footnote"><sup></sup> desarrollador|developer|programador|Jedy|Ninja ... web</span>
+        <span class="footnote"><sup></sup> geek|developer|programador|Jedy|Ninja ... web</span>
     </div>
 
 

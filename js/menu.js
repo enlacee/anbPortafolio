@@ -26,7 +26,7 @@ $(function() {
     
     /* Cache it */
     var $magicLine = $("#magic-line");    
-    
+    //console.log($(".current_page_item a").position().left);
     $magicLine
         .width($(".current_page_item").width())
         .css("left", $(".current_page_item a").position().left)

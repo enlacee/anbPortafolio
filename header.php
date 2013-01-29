@@ -5,9 +5,10 @@
 
         <meta name="viewport" content="width=1024" />
         <meta name="apple-mobile-web-app-capable" content="yes" />        
-        <meta name="author" content="Anibal Copitan" />
+        <meta name="author" content="Anibal Copitan Norabuena" />
         <link rel="shortcut icon" href="favicon.png" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />        
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <meta name='description' content='Anibal Copitan Norabuena, geek programador Afision por la web, desarrollo y experiencia Php,Mysql,Html5,Css,Javascript,Jquery.' />        
         <title>
             <?php
             global $page, $paged;
@@ -17,7 +18,7 @@
             // Agrega la descripción del blog, en la página principal.
             $site_description = get_bloginfo('description', 'display');
             if ($site_description && ( is_home() || is_front_page() ))
-                echo " | $site_description";
+                //echo " | $site_description";
             // Agrega el número de página si es necesario:
             if ($paged >= 2 || $page >= 2)
                 echo ' | ' . sprintf(__('Page %s', 'twentyten'), max($paged, $page));

@@ -9,10 +9,9 @@
         width: 250px;
         height: 250px;
         float: left;
-                padding: 10px;
+        padding: 10px;
         margin: 5px;
         list-style: none;
-
         border: 1px solid #999;
         background-color: #ccf;
     }
